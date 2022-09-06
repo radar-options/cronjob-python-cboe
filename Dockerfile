@@ -7,7 +7,7 @@ ARG PIPSERVER_PASSWORD
 WORKDIR /app
 
 RUN python -m pip install --upgrade pip && \
-    python -m pip install poetry && \
+    python -m pip install poetry==1.1.15 && \
     poetry config repositories.radar $PIPSERVER_URL && \
     poetry config http-basic.radar $PIPSERVER_USERNAME $PIPSERVER_PASSWORD && \
     python -m venv /venv
