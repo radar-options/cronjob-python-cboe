@@ -320,7 +320,7 @@ python-versions = "*"
 
 [[package]]
 name = "radar-mongodb"
-version = "0.2.0"
+version = "0.2.3"
 description = ""
 category = "main"
 optional = false
@@ -545,8 +545,8 @@ pytz = [
     {file = "pytz-2022.5.tar.gz", hash = "sha256:c4d88f472f54d615e9cd582a5004d1e5f624854a6a27a6211591c251f22a6914"},
 ]
 radar-mongodb = [
-    {file = "radar-mongodb-0.2.0.tar.gz", hash = "sha256:27ea000b78eacce99af484ab1e4ce44b94dcd0d556bb568e62aa2e3248a6202a"},
-    {file = "radar_mongodb-0.2.0-py3-none-any.whl", hash = "sha256:3d1ed92ba47bf0eedf89e4885d2489f8a9da70048ede995052c8baa0cee9b7d1"},
+    {file = "radar-mongodb-0.2.3.tar.gz", hash = "sha256:504084452cd6949c18c7e9c8b34d7784004a668bcfccdc99e20ed33245567e50"},
+    {file = "radar_mongodb-0.2.3-py3-none-any.whl", hash = "sha256:627d6617098a5abfb9a8b42ca05bd2c7ea140bbadf524423ded854f502f84283"},
 ]
 requests = []
 six = []
