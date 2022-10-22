@@ -10,6 +10,7 @@ def main():
     query_manager = QueryManager(
         db=MongoClient(config("MONGODB_URI")).get_default_database(),
         cboe_collection_name=config("CBOE_COLLECTION_NAME"),
+        spot_collection_name=config("SPOT_COLLECTION_NAME"),
     )
     cboe_extractor = CBOEExtractor(cboe_host=config("CBOE_HOST"))
     df: pd.DataFrame = cboe_extractor.to_dataframe()
