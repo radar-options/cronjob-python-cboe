@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cronjob-cboe"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["Ernesto Martinez del Pino <ernestomar1997@hotmail.com>"]
 packages = [
@@ -9,8 +9,8 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
-radar-mongodb = "0.1.*"
-cboe-extractor = "0.1.*"
+radar-mongodb = "0.2.*"
+cboe-extractor = "0.2.*"
 python-decouple = "^3.6"
 
 [tool.poetry.dev-dependencies]
