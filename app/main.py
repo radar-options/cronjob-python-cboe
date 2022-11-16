@@ -17,7 +17,6 @@ def main():
     cboe_extractor = CBOEExtractor(cboe_host=config("CBOE_HOST"))
     df: pd.DataFrame = cboe_extractor.to_dataframe()
     current_price: float = cboe_extractor.get_current_price()
-    df.dropna(axis=0, inplace=True)
     query_manager.cboe_queries.insert_many(
         documents=df.to_dict(orient="records"), 
         now = now
